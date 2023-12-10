@@ -24,6 +24,7 @@ create a new react app using the following command
 ```
 npm create vite@latest hof
 ```
+
 Choose **react**, then **javascript**.
 
 ```
@@ -120,7 +121,7 @@ render() {
             <div className="display-box">
             <ul>{this.renderItems()} </ul>
             </div>
-          </React.Fragment>
+          </React.Fragment>)}
 ```
 
 If you do the above, you still can't see the output. Do you know why it is because you need to add your component to your app.jsx file.
